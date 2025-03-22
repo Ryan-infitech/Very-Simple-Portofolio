@@ -655,10 +655,16 @@ body {
     width: auto;
   }
 
-  .menu ul li a {
-    padding: 12px 15px;
-    text-align: center;
-    font-size: 0.9rem;
+  .menu ul li.theme-toggle-container {
+    width: 100%;
+    margin: 5px 0;
+    order: 10; /* Push the toggle to the bottom in flex layout */
+  }
+
+  .theme-toggle {
+    margin: 8px auto;
+    width: 36px;
+    height: 36px;
   }
 
   .galeri-container {
@@ -756,8 +762,8 @@ body {
   }
 
   .theme-toggle {
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
   }
 
   .theme-toggle svg {
@@ -765,10 +771,10 @@ body {
     height: 16px;
   }
 
+  /* Remove conflicting position styles */
   .theme-toggle {
-    width: 35px;
-    height: 35px;
-    top: 15px;
-    right: 60px;
+    top: auto;
+    right: auto;
+    position: relative;
   }
 }
