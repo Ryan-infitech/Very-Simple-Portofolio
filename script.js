@@ -53,22 +53,22 @@ function updatePageTitle(contentId) {
 
   switch (contentId) {
     case "beranda":
-      pageTitle = `${baseSiteName} - Portofolio Pendidikan Teknik Informatika UNP`;
+      pageTitle = baseSiteName;
       break;
     case "pendidikan-formal":
-      pageTitle = `Riwayat Pendidikan | ${baseSiteName} - Portofolio`;
+      pageTitle = `Riwayat Pendidikan | ${baseSiteName}`;
       break;
     case "pendidikan-non-formal":
-      pageTitle = `Kursus & Pelatihan | ${baseSiteName} - Portofolio`;
+      pageTitle = `Kursus & Pelatihan | ${baseSiteName}`;
       break;
     case "pengalaman-organisasi":
-      pageTitle = `Pengalaman Organisasi | ${baseSiteName} - Portofolio`;
+      pageTitle = `Pengalaman Organisasi | ${baseSiteName}`;
       break;
     case "galeri":
-      pageTitle = `Galeri Foto | ${baseSiteName} - Portofolio`;
+      pageTitle = `Galeri Foto | ${baseSiteName}`;
       break;
     default:
-      pageTitle = `${baseSiteName} - Portofolio Pendidikan Teknik Informatika UNP`;
+      pageTitle = baseSiteName;
   }
 
   document.title = pageTitle;
@@ -376,7 +376,6 @@ function setupResponsiveMenu() {
 // Dark mode
 function initTheme() {
   const storedTheme = localStorage.getItem("theme");
-
 
   const themeToApply = storedTheme || "light";
 
