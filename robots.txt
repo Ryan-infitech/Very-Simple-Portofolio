@@ -1,0 +1,4 @@
+# robots.txt for rianseptiawan.my.id
+User-agent: *
+Allow: /
+Sitemap: https://rianseptiawan.my.id/sitemap.xml
