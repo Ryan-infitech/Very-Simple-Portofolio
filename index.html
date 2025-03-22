@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rian Septiawan - Portofolio Pendidikan Teknik Informatika UNP</title>
+    <meta
+      name="description"
+      content="Portofolio Rian Septiawan, mahasiswa Pendidikan Teknik Informatika UNP, dengan pengalaman di bidang IT, web development, dan organisasi kampus."
+    />
+    <meta
+      name="keywords"
+      content="Rian Septiawan, Portofolio, UNP, Pendidikan Teknik Informatika, Web Development, INFITECH, USKO FT UNP"
+    />
+    <meta name="author" content="Rian Septiawan" />
+    <meta
+      property="og:title"
+      content="Rian Septiawan - Portofolio Pendidikan Teknik Informatika UNP"
+    />
+    <meta
+      property="og:description"
+      content="Portofolio Rian Septiawan, mahasiswa Pendidikan Teknik Informatika UNP, dengan pengalaman di bidang IT, web development, dan organisasi kampus."
+    />
+    <meta
+      property="og:image"
+      content="https://rianseptiawan.my.id/gambar/foto.jpg"
+    />
+    <meta property="og:url" content="https://rianseptiawan.my.id" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Rian Septiawan - Portofolio Pendidikan Teknik Informatika UNP"
+    />
+    <meta
+      name="twitter:description"
+      content="Portofolio Rian Septiawan, mahasiswa Pendidikan Teknik Informatika UNP, dengan pengalaman di bidang IT, web development, dan organisasi kampus."
+    />
+    <meta
+      name="twitter:image"
+      content="https://rianseptiawan.my.id/gambar/foto.jpg"
+    />
+    <link rel="canonical" href="https://rianseptiawan.my.id" />
+    <link rel="stylesheet" href="gaya/utama.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rian Septiawan",
+        "url": "https://rianseptiawan.my.id",
+        "image": "https://rianseptiawan.my.id/gambar/foto.jpg",
+        "sameAs": ["mailto:rianseptiawan@infitech.or.id"],
+        "jobTitle": "Mahasiswa",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Universitas Negeri Padang"
+        },
+        "description": "Mahasiswa Pendidikan Teknik Informatika UNP, dengan pengalaman di bidang IT, web development, dan organisasi kampus.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Padang",
+          "addressRegion": "Sumatera Barat",
+          "addressCountry": "Indonesia"
+        },
+        "alumniOf": [
+          {
+            "@type": "Organization",
+            "name": "SMA Negeri 1 Lubuk Sikaping"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="kepala">
+        <div class="logo">
+          <img src="gambar/logo.png" alt="Logo Website" />
+        </div>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="#" class="active" onclick="loadContent('beranda')"
+              >Beranda</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="loadContent('pendidikan-formal')"
+              >Pendidikan</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="loadContent('pendidikan-non-formal')"
+              >Kursus</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="loadContent('pengalaman-organisasi')"
+              >Organisasi</a
+            >
+          </li>
+          <li><a href="#" onclick="loadContent('galeri')">Galeri</a></li>
+          <li class="theme-toggle-container">
+            <div
+              id="theme-toggle"
+              class="theme-toggle"
+              title="Toggle Dark/Light Mode"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  class="sun"
+                  d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                ></path>
+                <path
+                  class="moon"
+                  d="M21 12.79A9 9 0 1111.21 3 A7 7 0 0021 12.79z"
+                  style="display: none"
+                ></path>
+              </svg>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="konten">
+        <div class="sisi_kiri">
+          <h3>Jobsheet 1-3</h3>
+          <ul>
+            <li><a href="berkas/jobsheet1.pdf" download>Jobsheet 1</a></li>
+            <li><a href="berkas/jobsheet2.pdf" download>Jobsheet 2</a></li>
+            <li><a href="berkas/jobsheet3.pdf" download>Jobsheet 3</a></li>
+          </ul>
+        </div>
+
+        <div class="badan" id="konten-utama">
+          <div id="beranda">
+            <h2>Biodata Pribadi</h2>
+            <div class="biodata">
+              <img src="gambar/foto.jpg" alt="Foto Diri" class="foto-profil" />
+              <div class="detail-biodata">
+                <div class="bio-item">
+                  <div class="bio-label">Nama:</div>
+                  <div class="bio-value">Rian Septiawan</div>
+                </div>
+                <div class="bio-item">
+                  <div class="bio-label">NIM:</div>
+                  <div class="bio-value">23076052</div>
+                </div>
+                <div class="bio-item">
+                  <div class="bio-label">Tempat, Tanggal Lahir:</div>
+                  <div class="bio-value">Kp.Baru, 1 September 2003</div>
+                </div>
+                <div class="bio-item">
+                  <div class="bio-label">Alamat:</div>
+                  <div class="bio-value">Jl.Pinang Sori III No 8, Padang</div>
+                </div>
+                <div class="bio-item">
+                  <div class="bio-label">Email:</div>
+                  <div class="bio-value">rianseptiawan@infitech.or.id</div>
+                </div>
+                <div class="bio-item">
+                  <div class="bio-label">Telepon:</div>
+                  <div class="bio-value">+6285157517798</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="pendidikan-formal" style="display: none">
+            <h2>Pendidikan Formal</h2>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-year">2023 - Sekarang</div>
+                <div class="timeline-content">
+                  <h3>Universitas Negeri Padang</h3>
+                  <p>Pendidikan Teknik Informatika</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-year">2018 - 2021</div>
+                <div class="timeline-content">
+                  <h3>SMA Negeri 1 Lubuk Sikaping</h3>
+                  <p>Jurusan IPA</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-year">2015 - 2018</div>
+                <div class="timeline-content">
+                  <h3>SMP Negeri 2 Dua Koto</h3>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-year">2009 - 2015</div>
+                <div class="timeline-content">
+                  <h3>SD Negeri 25 Dua Koto</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="pendidikan-non-formal" style="display: none">
+            <h2>Pendidikan Non Formal</h2>
+            <div class="kursus-list">
+              <div class="kursus-item">
+                <h3>
+                  Membangun Website dengan Wordpress & HTML bagi Pengembang
+                  Internet
+                </h3>
+                <p>IDS Education, 2021</p>
+                <p>Materi: Wordpress, HTML, CSS, JavaScript,</p>
+              </div>
+              <div class="kursus-item">
+                <h3>
+                  Mengaplikasikan Strategi Inbounding Marketing Untuk Spesialis
+                  Pemasaran
+                </h3>
+                <p>Arkademi, 2021</p>
+                <p>Level: Intermediate</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="pengalaman-organisasi" style="display: none">
+            <h2>Pengalaman Organisasi</h2>
+            <div class="organisasi-list">
+              <div class="organisasi-item">
+                <h3>Unit Kegiatan IT UNP ( INFITECH )</h3>
+                <p>Anggota, 2024 - Sekarang</p>
+                <p>Terlibat dalam berbagai proyek dan kompetisi pemrograman</p>
+              </div>
+              <div class="organisasi-item">
+                <h3>Unit Seni Kampus Orange (USKO FT UNP)</h3>
+                <p>Koordinator Bidang Musik, 2024 - Sekarang</p>
+                <p>
+                  Bertanggung jawab Mengkoordinir bidang musik dalam berbagai
+                  kegiatan acara yang ada
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="galeri" style="display: none">
+            <h2>Galeri Photo</h2>
+            <div class="galeri-container">
+              <div class="galeri-item">
+                <img src="gambar/galeri1.jpg" alt="Foto 1" />
+                <p>Krida FT UNP 2023</p>
+              </div>
+              <div class="galeri-item">
+                <img src="gambar/galeri2.jpg" alt="Foto 2" />
+                <p>Praktikum Pemrograman Web</p>
+              </div>
+              <div class="galeri-item">
+                <img src="gambar/galeri3.jpg" alt="Foto 3" />
+                <p>Hackathon 2023</p>
+              </div>
+              <div class="galeri-item">
+                <img src="gambar/galeri4.jpg" alt="Foto 4" />
+                <p>Raising Found - Peduli Galodo Sumbar</p>
+              </div>
+              <div class="galeri-item">
+                <img src="gambar/galeri5.jpg" alt="Foto 5" />
+                <p>Krida 2023 (FT UNP)</p>
+              </div>
+              <div class="galeri-item">
+                <img src="gambar/galeri6.jpg" alt="Foto 6" />
+                <p>Engginering Expo 2024 (FT UNP)</p>
+              </div>
+              <div class="galeri-item">
+                <img src="gambar/galeri7.jpg" alt="Foto 7" />
+                <p>krida 2024 (FT UNP)</p>
+              </div>
+              <div class="galeri-item">
+                <img src="gambar/galeri8.jpg" alt="Foto 8" />
+                <p>Blok FT UNP</p>
+              </div>
+              <div class="galeri-item">
+                <img src="gambar/galeri9.jpg" alt="Foto 9" />
+                <p>Perform krida 2024 (FT UNP)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sisi_kanan">
+          <h3>Jobsheet 4-6</h3>
+          <ul>
+            <li><a href="berkas/jobsheet4.pdf" download>Jobsheet 4</a></li>
+            <li><a href="berkas/jobsheet5.pdf" download>Jobsheet 5</a></li>
+            <li><a href="berkas/jobsheet6.pdf" download>Jobsheet 6</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="kaki">
+        <p>&copy; 23076052, Rian Septiawan</p>
+        <p>Pendidikan Teknik Informatika FT UNP</p>
+      </div>
+    </div>
+  </body>
+</html>
